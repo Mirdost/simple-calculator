@@ -1,2 +1,2 @@
-# simple-calculator
-This is a simple calculator
+# cli-number-guessing
+this is cli based numbers guessing game

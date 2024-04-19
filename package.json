@@ -1,19 +1,22 @@
 {
-  "name": "mirdost-simple-calculator",
-  "version": "1.0.1",
-  "description": "\"A simple calculatpr with TypeScript, Node.js and Inquirer\"",
+  "name": "@mirdost/cli_number_guessing",
+  "version": "1.0.6",
+  "description": "This is cli baseb numberguessing game",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mirdost",
+  "author": "Mir_Dost",
   "license": "MIT",
-  "dependencies": {
-    "inquirer": "^9.2.17"
-  },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "@mirdost/cli-number-guessing": "^1.0.1"
   }
 }
